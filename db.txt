@@ -1,0 +1,34 @@
+CREATE TABLE `kaltura`.`kalturavideo` (
+  `entryid` VARCHAR(50) NOT NULL,
+  `title` VARCHAR(255) NOT NULL,
+  `description` TEXT NULL,
+  `creator` VARCHAR(255) NOT NULL,
+  `tags` TEXT NULL,
+  `categories` TEXT NULL,
+  `url` TEXT NOT NULL,
+  `type` VARCHAR(50) NOT NULL DEFAULT 'video',
+  `maxsizeKB` INT NOT NULL DEFAULT 0,
+  PRIMARY KEY (`entryid`));
+  
+  CREATE TABLE `kaltura`.`kalturaaudio` (
+  `entryid` VARCHAR(50) NOT NULL,
+  `title` VARCHAR(255) NOT NULL,
+  `description` TEXT NULL,
+  `creator` VARCHAR(255) NOT NULL,
+  `tags` TEXT NULL,
+  `categories` TEXT NULL,
+  `url` TEXT NOT NULL,
+  `type` VARCHAR(50) NOT NULL DEFAULT 'audio',
+  `maxsizeKB` INT NOT NULL DEFAULT 0,
+  PRIMARY KEY (`entryid`));
+  
+   CREATE TABLE `kaltura`.`kalturaimage` (
+          `entryid` VARCHAR(50) NOT NULL,
+          `title` VARCHAR(255) NOT NULL,
+          `description` TEXT NULL,
+          `creator` VARCHAR(255) NOT NULL,
+          `tags` TEXT,
+          `categories` TEXT,
+          `url` TEXT NOT NULL,
+          `type` VARCHAR(50) NOT NULL DEFAULT 'image',
+          PRIMARY KEY (`entryid`));
