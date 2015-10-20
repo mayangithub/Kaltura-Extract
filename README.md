@@ -10,3 +10,6 @@ Features:<br>
 6. Search entries in filtered entries.<br>
 7. Insert entry metadata into database. <br>
 8. Update database when finding new entries. <br>
+
+To use these files, remember to replace the database credentials and Kaltura credentials.  
+Feel free to try. 
