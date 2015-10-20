@@ -1,0 +1,219 @@
+body {
+	font-family: arial,sans-serif;
+	max-width: 100%;
+}
+
+/* Header Part CSS */
+#header {
+	width: 100%;
+	display: inline-block;
+	height: 100px;
+	padding-top: 0px;
+}
+
+div.inner {
+	max-width: 80%;
+	margin: 0px auto;
+	position: relative;
+}
+
+#header #logo {
+	position: absolute;		
+	top: 5px;
+	left: 0px;
+	width: 153px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+
+#header #header-main-nav {
+	width: 870px;
+	float: right;
+	margin-top: 20px;
+	text-align: right;
+}
+
+#header-main-nav ul.nav li.nav-li, #header-main-nav ul.nav li.nav-li-selected{
+	margin: 3px;
+	display: inline-block;
+	text-align: left;
+	position: relative;
+	padding: 5px 20px;
+	list-style: none;
+	color: #666;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#header-main-nav ul.nav li.nav-li a, #header-main-nav ul.nav li.nav-li-selected a {
+	text-decoration: none;
+	color: #666560;
+}
+
+#header-main-nav ul.nav li.nav-li a:hover, #header-main-nav ul.nav li.nav-li-selected a:hover {
+	color: #0FA2BB;
+}
+
+#header-main-nav ul.nav li.nav-li:hover, #header-main-nav ul.nav li.nav-li-selected:hover {
+	border: 1px solid #484848;
+	border-radius: 5px;
+	color: #0FA2BB;
+	box-shadow:1px 1px 5px #484848;	
+}
+
+#header-main-nav ul.nav li.nav-li-selected {
+	border: 1px solid #484848;
+	border-radius: 5px;
+	box-shadow:1px 1px 5px #484848;	
+}
+
+/* Content Part CSS*/
+
+#content {
+	display: inline-block;
+	float: right;
+	min-height: 600px;
+	max-width: 70%;
+	min-width: 70%;
+	margin: 0px 3%;
+	position: relative;
+}
+
+#categories {
+	width: 18%;
+	max-height: 500px;
+	font-size: 11px;
+	overflow: scroll;
+	display: inline-block;
+	background-color: white;
+	border: 1px solid #484848;
+	border-radius: 5px;
+	box-shadow:1px 1px 5px #484848;
+	text-align: left;
+	padding: 20px 20px;
+	/*margin-left: 5%;*/
+	position: fixed;
+	left: 3%;
+	top: 150px;
+}
+
+
+#content #stat {
+	display: inline-block;
+	clear: left;
+	width: 100%;
+}
+
+#content #stat #total {
+	display: inline-block;
+}
+
+#content #stat #total p {
+	margin: 0px;
+}
+
+#content #stat #search {
+	float: right;
+} 
+
+#content #stat #search form {
+	margin: 0px;
+}
+
+#content div.page {
+	clear: left;
+	margin: 20px 0px;
+}
+
+#content div.page div.pageid {
+	padding: 2px 10px;
+	margin-bottom: 20px;
+	max-width: 80px;
+	border: 1px solid #484848;
+	border-radius: 5px;
+	box-shadow:1px 1px 5px #484848;	
+	text-align: center;
+}
+
+#content div.page div.pageid a:link, #content div.page div.pageid a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+
+#content div.page div.records table {
+	table-layout: fixed;
+	width: 100%;
+	word-wrap: break-word;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#content div.page div.records table thead th {
+	height: 18px;
+	border-collapse: collapse;
+	border: 1px solid gray;
+	padding: 5px 5px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: rgb(248,248,248);
+}
+
+#content div.page div.records table, tbody tr td {
+	font-size: 11px;
+	border-collapse: collapse;
+	border: 1px solid gray;
+	padding: 2px 5px;
+
+}
+
+th.No, td.No {
+	text-align: center;
+	width: 25px;
+} 
+
+th.entryid, td.entryid {
+	text-align: center;
+	width: 80px;
+}
+
+th.creator, td.creator {
+	text-align: left;
+	width: 100px;
+}
+
+th.url, td.url {
+	text-align: center;
+	width: 80px;
+}
+
+th.size, td.size {
+	text-align: center;
+	width: 80px;
+}
+
+
+
+/* Footer Part CSS*/
+footer {
+	clear: both;
+	height: 100px;
+	width: 100%;
+	margin-top: 50px;
+}
+
+footer p {
+	font-size: 11px;
+	width: 300px;
+	margin: auto auto;
+	text-align: center;
+	color: #FFD119;
+	word-wrap:normal;
+}
+
+
+
+
+
